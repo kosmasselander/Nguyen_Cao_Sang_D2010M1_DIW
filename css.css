@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100%;
+    height: 4800px;
+    background-color: #ef9af2;
+}
+.mot{
+    background: url(Hình/RytELMx.jpg);
+    background-size: cover;
+    min-height: 1000px;
+}
+.mot button{
+    min-width: 150px;
+    min-height: 50px;
+    justify-content: center;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: #cf79f7;
+    color: wheat;
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: rgb(194, 89, 243);
+    color: wheat;
+}
+.hai{
+    background-color: #831187;
+    padding-bottom: 50px;
+}
+.ba{
+    min-height: 497px;
+    background-color: rebeccapurple;
+}
+.button3{
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    align-items: center;
+    align-content: center;
+    top: 300px;
+}
+.button3:hover{
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: wheat;
+}
+.bon{
+    min-height: 501px;
+    background-color: whitesmoke;
+}
+.nam{
+    min-height: 200px;
+    background-color: rgb(233, 233, 233);
+    justify-content: center;
+}
+.sau{
+    min-height: 499px;
+    background-color: whitesmoke;
+}
+.bay{
+    min-height: 500px;
+    background-image: url(Hình/pixel-jeff-clipa-s.gif);
+    min-height: 500px; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+.bay>.container {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.bay h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+} 
+  li span {
+    display: block;
+    font-size: 4.5rem;
+}
+@media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+}
+footer{
+    height: 20%;
+    background-color: rgb(110, 44, 119);
+    color: white;
+    text-align: center;
+    z-index: 9999;
+    margin: 0 auto -60px;
+}
